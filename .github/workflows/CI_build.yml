@@ -90,6 +90,7 @@ jobs:
       matrix:
         build_configuration: [Release]
         build_platform: ["Unix Makefiles"]
+        arch: [x86_64, arm64]
 
     steps:
       - uses: actions/checkout@v4
